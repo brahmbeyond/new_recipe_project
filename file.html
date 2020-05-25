@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2020 by shuhzz (http://jsbin.com/ligamak/12/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>                   <!-- css properties url-https://www.w3schools.com/html/html_css.asp -->
+   <head>
+      <meta charset="utf-8">ls
+      
+        <title> Recipe </title>    <!-- giving it a title -->
+     <header> 
+       <ul id="header"> 
+         <li>HOME</li>
+         <li><a href="https://www.maggi.in/">GO TO OFFICIAL SITE</a></li>
+         <li><a href="https://www.maggi.in/recipe-list?category=quick-%26-easy-recipes">QUICK AND EASY RECIPIES</a></li>
+       </ul>
+     </header>
+     
+     <i><h1 class="h1"><center><u>Maggi Recipe</u></center></h1></i>     <!-- making heading italic and giving it h1 size -->
+          <center><img class="img1" src="https://images-na.ssl-images-amazon.com/images/I/91UArOY3RvL._SY445_PIbundle-24,TopRight,0,0_SX339SY445SH20_.jpg" 
+             alt="maggi">
+
+ 
+                <style>
+                  
+                  #header{
+                    padding-left:0px;
+                    
+                    display:flex;
+                    background-color:teal;
+                    justify-content:space-between;
+                    font-size:18px;
+                    color:white;
+                        }
+                  .img1:hover {
+                     transform: scale(1.5);
+                                              
+                      }
+                  .h1{
+                   padding:15px;
+                    margin:50px;
+                    background-color:lightblue;
+                    font-size:45px;
+                        }
+                  .img1{
+                    padding:10px;
+                    width:200px;
+                      }
+                   ul{
+                    list-style:none;
+                      font-size:22px;
+                      }
+                  li::before{
+                    content:"\2695";
+                      }
+                  #img2{
+                    width:1000px;
+                    height:750px;
+                 
+                      }
+                  #p1{
+                    font-size:31px;
+                      }
+                  #p2{
+                    font-size:31px;
+                    color:purple;
+                      }
+                  #w01{
+                    font-size:20px;
+                    color:red;
+                      }
+                  body{
+                    background-color:lavender;
+                      background-image: url('');
+                      }
+                  html{
+                    border:5px blue;
+                      }
+                    .ul1{
+                    padding-left:10px;
+                    background-color:white;
+                        }
+                  p>span{
+                    font-style:italic;
+                      }
+                  .s5{
+                    text-decoration:underline;
+                      }
+                  .s1{
+                    font-style:normal;
+                     color:red;
+                      }
+                  <!-- using media rule for responsiveness -->
+                  @media screen and (max-width: 400px)  
+                  {
+                    .h1{
+                      font-size:25px; }
+                    #p1,#p2{
+                      font-size:20px }
+                    ul{
+                      font-size:17px;}
+                    #img2{
+                      width:250px;
+                      height:auto;}
+                    #header{
+                      flex-flow:column wrap;}
+                      }
+                  @media screen and (max-width: 750px) and (min-width:401px)
+                  {
+                    .h1{
+                      font-size:35px;}
+                    #p1,#p2{
+                      font-size:25px }
+                    ul{
+                      font-size:20px;}
+                    #img2{
+                      width:450px;
+                      height:auto;}
+                    #header{
+                      flex-flow:column wrap;
+                    text-align:center;}
+                    }
+
+             </style> 
+    
+   </head>    
+   <body>
+       <!-- writing a paragraph -->
+     <p id="p1">This is<span class="s1"> maggi </span> of<span class="s2"> nestle company</span>.
+       I like this because of it's <span class="s3">good taste</span> and the main reason is that 
+         it can be cooked <span class="s4">instantly</span> and is a<span class="s5"> healthy product</span>.</p></center>
+ 
+      <article>
+         
+          <!-- starting of unordered list -->
+       <em>
+        <ul class="ul1">
+         <li>Boil water</li>
+           <ol type="i">                          <!-- starting ordered list to explin in detail -->
+             <li>Take a pan.&#x1F958</li>
+              <li>Pour 2 cup water to it and boil it.&#x1F6B0</li>
+           </ol> 
+         <li>Add masala</li>
+           <ol type="i">
+             <li>Add the full packet of masala.&#x1F9E7</li>
+           </ol> 
+         <li>Add maggie</li>
+           <ol type="i">
+             <li>Break the maggie into half of add as it is.</li>
+           </ol> 
+         <li>Cook</li>
+           <ol type="i">
+             <li>Cook it for 2 mins.👨‍🍳</li>
+             <li>Now serve it.🥣</li>
+           </ol> 
+       </ul>
+     </article>
+<center><img id="img2" src="https://spoonsofflavor.com/wp-content/uploads/2019/09/Simple-Maggi-Masala-Noodles-At-Home.jpg" alt="cooked">    
+     </center>
+     <ul>
+       <p id="p2"> Other ways to cook maggi <p>
+       <li><a href="https://www.maggi.in/maggi-noodles-recipes/easy-peasy-maggi-noodles">Easy Peasy MAGGI Noodles</a> </li>
+       <li><a href="https://www.maggi.in/maggi-noodles-recipes/cheesy-italiano-maggi-noodles">Cheesy Italiano MAGGI Noodles</a> </li>
+       <li><a href="https://www.maggi.in/maggi-noodles-recipes/paneer-taka-tak-maggi-noodles">Paneer Taka-Tak MAGGI Noodles</a> </li>
+       <li><a href="https://www.maggi.in/maggi-noodles-recipes/maggi-biryani-noodles">MAGGI Biryani Noodles</a> </li>
+       <li><a href="https://www.maggi.in/maggi-noodles-recipes/paneer-bhurji-maggi-noodles">Paneer Bhurji MAGGI Noodles</a> </li>
+    
+       <p id="w01">For more information : <a href="mailto=shubham924.yadav@gmail.com">Email me</a> </p>
+       </body>
+</html>  
